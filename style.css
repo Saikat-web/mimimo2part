@@ -1,0 +1,156 @@
+
+/* common css start */
+body{
+    margin: 0;
+    font-family: "Playfair", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* common css End */
+/* header start  */
+header{
+    padding: 30px 0;
+    /* border: 1px solid;
+     */
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.logo{
+    margin-top: 8px;
+    width: 12%;
+    /* border: 2px solid; */
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 75%;
+    /* border: 2px solid; */
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+.menu ul li:last-child a{
+    margin: 0;
+}
+
+.menu ul li a:hover{
+    color: black;
+    border-bottom: 1px solid #626262;
+}
+
+/* header End */
+
+/* Banner start  */
+.banner
+.b_image
+.b_image, img{
+    width: 100%;
+   
+}
+
+
+/* Banner End  */
+
+/* Article Start  */
+.artical{
+    padding: 100px 0 100px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid; */
+}
+.a_content
+.c_link{
+    display: inline-block;
+    font-family: "ubuntu", serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.c_h1{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    line-height: 24px;
+}
+.comment{
+    margin-top: 45px;
+}
+/* Article End  */
+/* Signup Start  */
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    width: 400px;
+    /* border: 5px solid red; */
+    margin: 0 auto;
+    position: relative;
+}
+.s_form input{
+    font-family: "Playfair", serif;
+    font-size: 14px;
+    color: #626262;
+    width: 340px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+
+.s_form button img{}
+/* Signup End  */
